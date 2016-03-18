@@ -1,0 +1,23 @@
+body{
+	background-color: #ccc;
+	height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+	width: 80%;
+	text-align: center;
+	height: auto;
+}
+
+.note{
+	width: 70%;
+	height: 15%;
+	text-align: center;
+	font-family: Arial, Sans-Serif;
+	font-size: 18px;
+}
+
+
