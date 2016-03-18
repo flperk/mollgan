@@ -7,7 +7,18 @@ html, body{
 footer{
 	width: 100%;
 	position: fixed;
+	height: 60px;
+	line-height: 60px;
+	background-color: #f8f8f8;
+	left:0px;
+	bottom:0px;
+	display: flex;
+	flex-flow: nowrap;
 	
+}
+footer > img{
+	flex: 0 1 auto;
+	max-width: 50px;
 }
 
 
