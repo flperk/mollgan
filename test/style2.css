@@ -6,18 +6,54 @@ body{
     margin: 0;
 }
 
+h1{
+	padding: 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 28px;
+}
+
+h2, p{
+	margin: 0;
+	padding: 0;
+}
+
 .container{
-	width: 80%;
-	text-align: center;
+	width: 100%;
 	height: auto;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding-top: 10%;
 }
 
 .note{
-	width: 70%;
+	width: 85%;
 	height: 15%;
-	text-align: center;
-	font-family: Arial, Sans-Serif;
-	font-size: 18px;
+	display: inline-block;
+	background-color: #FFF;
+	padding: 10px 0;
+	margin: 5px 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 12px;
+	border-radius: 15px;
+    border: 2px;
+    text-align: left;
+}
+
+.note h2{
+	display: inline;
+	width: 100%;
+	padding-left: 16px;
+}
+
+.timestamp{
+	font-family: 'Helvetica Neue', Sans-Serif;
+	color: #CCC;
+	font-size: 9px;
+	text-align: left;
+	padding-top: 6px;
+	padding-left: 16px;
+
 }
 
 
