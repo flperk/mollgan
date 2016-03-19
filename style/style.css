@@ -3,18 +3,22 @@ html, body{
 	padding: 0;
 	background-color: gray;	
 	line-height: 1.5;
-	font-family: "Roboto Condensed";
+	font-family: "VT323";
+}
+h1{
+	font-size: 3.5em;
+	margin-bottom: 0.2em;
+	margin-top: 0em;
 }
 .mollgan-container{
 	display: flex;
 	justify-content: center;
-	flex-flow: nowrap;
+	flex-direction: column;
 	align-items: center;
 	height: calc(100vh - 60px);
 }
 .mollgan-container > div {
 	min-width: 0;
-	width: 80%;
 }
 .mollgan-container > div > img{
 	flex: 0 0 100%;
@@ -34,7 +38,7 @@ html, body{
 	max-width: 800px;
     width: 90%;
     min-width: 300px;
-    margin: 18px auto;
+    margin: 10px auto;
 }
 .map-container{
 	display: flex;
@@ -64,15 +68,10 @@ footer > a{
 }
 footer > a > img{
 	flex: 0 1 auto;
-	width: 45px;
-	/*background-color: black;*/
+	width: 35px;
 	padding: 0 40px;
 }
-/*footer > img:active{
-	background-color: gray;
-}*/
 .currentLink {
-   color: #640200;
    background-color: red;
 }
 
