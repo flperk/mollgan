@@ -1,0 +1,69 @@
+body{
+	background-color: #ccc;
+	height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+	padding: 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 28px;
+}
+
+h2, p{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding-top: 10%;
+}
+
+.note{
+	width: 85%;
+	height: 15%;
+	display: inline-block;
+	background-color: #FFF;
+	margin: 5px 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 12px;
+	border-radius: 15px;
+    border: 2px;
+    text-align: left;
+    padding: 10px 16px;
+}
+
+.note h2{
+	display: inline;
+	width: 100%;
+}
+
+.timestamp{
+	font-family: 'Helvetica Neue', Sans-Serif;
+	color: #CCC;
+	font-size: 9px;
+	text-align: left;
+	padding-top: 6px;
+}
+
+.note-big{
+	width: 85%;
+	height: 420px;
+	display: inline-block;
+	background-color: #FFF;
+	padding: 10px 16px;
+	margin: 5px 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 12px;
+	border-radius: 15px;
+    border: 2px;
+    text-align: left;
+}
+
