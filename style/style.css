@@ -1,14 +1,26 @@
 html, body{
 	margin: 0;
 	padding: 0;
-	background-color: gray;	
 	line-height: 1.5;
-	font-family: "VT323";
+	background-color: #ccc;
 }
 h1{
+	padding: 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+}
+h2, p{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+}
+a{
+	color:inherit;
+}
+.mollgan-container > h1{
 	font-size: 3.5em;
 	margin-bottom: 0.2em;
 	margin-top: 0em;
+	font-family: "VT323";
 }
 .mollgan-container{
 	display: flex;
@@ -47,7 +59,8 @@ h1{
 }
 #map{
 	height: 400px;
-	width: 96%;
+	width: 90%;
+	margin-top: 10px;
 }
 footer{
 	width: 100%;
@@ -60,7 +73,6 @@ footer{
 	display: flex;
 	flex-flow: nowrap;
 	justify-content: space-between;
-
 }
 footer > a{
 	height: auto;
@@ -69,11 +81,114 @@ footer > a{
 footer > a > img{
 	flex: 0 1 auto;
 	width: 35px;
-	padding: 0 40px;
+	padding: 0 45px;
 }
 .currentLink {
-   background-color: red;
+   background-color: #AE0B2B;
 }
 
+.container{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding-top: 2%;
+}
 
+.note{
+	width: 85%;
+	height: 15%;
+	display: inline-block;
+	background-color: #FFF;
+	margin: 5px 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 12px;
+	border-radius: 15px;
+    border: 2px;
+    text-align: left;
+    padding: 10px 16px;
+}
 
+/*.note > img{
+	width: 20px;
+	float: right;
+}*/
+#trash{
+	float:right;
+	width: 15px;
+}
+#heart{
+	width: 20px;
+	margin: 0 2px;
+}
+
+.textbox > div > *{
+	display: inline-block;
+}
+.textbox > div{
+	margin-bottom: 10px;
+}
+.note h2{
+	display: inline;
+	width: 100%;
+}
+
+.timestamp{
+	font-family: 'Helvetica Neue', Sans-Serif;
+	color: #CCC;
+	font-size: 9px;
+	text-align: left;
+	padding-top: 6px;
+}
+
+.note-big{
+	width: 85%;
+	height: 420px;
+	display: inline-block;
+	background-color: #FFF;
+	padding: 10px 16px;
+	margin: 5px 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 12px;
+	border-radius: 15px;
+    border: 2px;
+    text-align: left;
+}
+
+#greetings h1, img{
+	display: inline-block;
+}
+
+#greetings img{
+	width: 25px;
+	margin-left: 10px;
+}
+.cover {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	background-size: cover;
+}
+.cover:hover {
+	cursor: pointer;
+}
+.cover.playing {
+	opacity: 0.8;
+}
+.music{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.music > p{
+	margin-top: 8px;
+}
+.music > div{
+	display: flex;
+	justify-content: center;
+}
+.music > div > div{
+	flex:1 0 auto;
+	max-width: 320px;
+}
