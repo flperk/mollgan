@@ -31,19 +31,18 @@ h2, p{
 	height: 15%;
 	display: inline-block;
 	background-color: #FFF;
-	padding: 10px 0;
 	margin: 5px 0;
 	font-family: 'Helvetica Neue', Sans-Serif;
 	font-size: 12px;
 	border-radius: 15px;
     border: 2px;
     text-align: left;
+    padding: 10px 16px;
 }
 
 .note h2{
 	display: inline;
 	width: 100%;
-	padding-left: 16px;
 }
 
 .timestamp{
@@ -52,8 +51,19 @@ h2, p{
 	font-size: 9px;
 	text-align: left;
 	padding-top: 6px;
-	padding-left: 16px;
-
 }
 
+.note-big{
+	width: 85%;
+	height: 420px;
+	display: inline-block;
+	background-color: #FFF;
+	padding: 10px 16px;
+	margin: 5px 0;
+	font-family: 'Helvetica Neue', Sans-Serif;
+	font-size: 12px;
+	border-radius: 15px;
+    border: 2px;
+    text-align: left;
+}
 
