@@ -26,6 +26,15 @@ h2, p{
 	padding-top: 10%;
 }
 
+#greetings h1, img{
+	display: inline-block;
+}
+
+#greetings img{
+	width: 25px;
+	margin-left: 10px;
+}
+
 .note{
 	width: 85%;
 	height: 15%;
